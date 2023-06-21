@@ -37,8 +37,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 function postmeta_form_keys( $keys, $wp_post ) {
 	$screen = \get_current_screen();
 
-	if ( ! empty( $screen->id ) && 'order' === $screen->id ) {
-		$keys = [];
+	if ( ! \is_null( $keys ) ) {
+		return $keys;
+	}
+
+	if ( ! empty( $screen->id ) ) {
+		if ( \in_array( $screen->id, [ 'product', 'shop_order' ], true ) ) {
+			$keys = [];
+		}
 	}
 
 	return $keys;
