@@ -28,6 +28,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * to skip.
  *
  * @since 0.1.0
+ * @since 0.2.0 Added shop_order to exclude list.
  *
  * @param array|null $keys    The post meta keys.
  * @param \WP_Post   $wp_post The current post object.
