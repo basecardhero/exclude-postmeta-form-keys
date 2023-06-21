@@ -1,6 +1,5 @@
-PLUGIN_DIR_NAME=wordpress-starter-plugin
-TEST_DB_NAME=wordpress_starter_plugin_tests
+PLUGIN_DIR_NAME=exclude-postmeta-form-keys
+TEST_DB_NAME=exclude_postmeta_form_keys_tests
 TEST_DB_USER=
 TEST_DB_PASSWORD=
 TEST_DB_HOST=
-WC_VERSION=false

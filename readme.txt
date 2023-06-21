@@ -1,5 +1,5 @@
-=== WordPress Starter Plugin ===
-Contributors: PluginAuthor
+=== Exclude Postmeta Form Keys for WooCommerce ===
+Contributors: BaseCardHero
 Tags:
 Requires at least: 6.0
 Tested up to: 6.2.2
@@ -8,7 +8,7 @@ Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A starter plugin for WordPress.
+Exclude postmeta form keys for products and orders within WordPress admin.
 
 == Description ==
 

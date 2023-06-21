@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Exclude Postmeta Form Keys for WooCommerce
- * Description: Exclude postmeta form keys for products within WordPress admin.
+ * Description: Exclude postmeta form keys for products and orders within WordPress admin.
  * Plugin URI: https://basecardhero.com
  * Author: BaseCardHero
  * Author URI: https://basecardhero.com
