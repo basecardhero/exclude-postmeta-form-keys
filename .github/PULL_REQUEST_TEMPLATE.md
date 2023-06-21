@@ -16,14 +16,6 @@ I have:
 composer all
 ```
 
-```
-npm run lint:js
-```
-
-```
-npm run test
-```
-
 <!--
 What steps should reviewers take to test manually?
 -->
