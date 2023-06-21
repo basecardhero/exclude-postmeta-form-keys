@@ -6,7 +6,7 @@ Prevent the `postmeta_form_keys` query from running on Product or Order admin pa
 
 ## The Problem
 
-When creating or editing a post type in WordPress, a query against the post meta table is ran that will populate the Custom Fields meta boxes. These can be toggled on and off using the Screen Options. However, this query is somewhat inefficient. When the postmeta table gets "large" (4 million+ rows in our case), the query can take 10 to 20 seconds.
+When creating or editing a post type in WordPress, a query against the post meta table is ran that will populate the Custom Fields meta boxes. These can be toggled on and off using the Screen Options. However, the query is still ran when the Custom Fields are toggle off. The query becomes somewhat inefficient when the postmeta table gets "large" (4 million+ rows in our case), the query can take 10 to 20 seconds.
 
 This is what the query looks like by default.
 
@@ -35,5 +35,6 @@ _I usually develop on Mac using terminal. This is probably different on Windows.
 1. Clone the repository into the `plugins` directory of your WordPress develop site.
 2. Create a copy of the `.makenv` file. `cp .makenv.sample .makenv`.
 3. Update `.makenv` with your test database information.
-4. Run `composer test` to run integration tests.
-5. Run `composer all` to run php linting, WordPress code standards, and phpunit all in one.
+4. Run `make setup-tests`
+5. Run `composer test` to run integration tests.
+6. Run `composer all` to run php linting, WordPress code standards, and phpunit all in one.
