@@ -6,7 +6,7 @@
  * Author: BaseCardHero
  * Author URI: https://basecardhero.com
  * Version: 0.2.1
- * Requires at least: 6.1
+ * Requires at least: 6.2
  * Requires PHP: 7.4
  * Text Domain: exclude-postmeta-form-keys
  * Domain Path: /languages
