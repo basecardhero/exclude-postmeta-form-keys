@@ -22,6 +22,11 @@ Use the WordPress Plugin > Install New and upload the zip file.
 
 == Changelog ==
 
+= 0.2.3 =
+- Updated composer packages.
+- Updated actions versions in Github Actions.
+- Updated WordPress version to 6.5.
+
 = 0.2.2 =
 - Update: Set WordPress 6.4 as tested-up-to version.
 - Update: Set WordPress 6.2 as minimum supported version.

@@ -5,7 +5,7 @@
  * Plugin URI: https://basecardhero.com
  * Author: BaseCardHero
  * Author URI: https://basecardhero.com
- * Version: 0.2.2
+ * Version: 0.2.3
  * Requires at least: 6.2
  * Requires PHP: 7.4
  * Text Domain: exclude-postmeta-form-keys

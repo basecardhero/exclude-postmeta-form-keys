@@ -1,4 +1,4 @@
-## Unreleased
+## 0.2.3 - 04/07/2024
 - Updated composer packages.
 - Updated actions versions in Github Actions.
 - Updated WordPress version to 6.5.
