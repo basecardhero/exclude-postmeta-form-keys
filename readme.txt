@@ -2,7 +2,7 @@
 Contributors: BaseCardHero
 Tags:
 Requires at least: 6.2
-Tested up to: 6.4.2
+Tested up to: 6.5
 Stable tag: 0.2.2
 Requires PHP: 7.4
 License: GPLv2 or later

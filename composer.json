@@ -3,9 +3,9 @@
 	"license": "GPL 2+",
 	"authors": [
 		{
-			"name": "PluginAuthor",
-			"email": "plugin.author@example.com",
-			"homepage": "https://pluginauthor.com",
+			"name": "BaseCardHero",
+			"email": "basecardhero@basecardhero.com",
+			"homepage": "https://basecardhero.com",
 			"role": "Developer"
 		}
 	],
